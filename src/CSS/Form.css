@@ -1,0 +1,20 @@
+.popup-overlay {
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    max-width: 400px;
+    border: 2px solid red;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: red; /* Cambia el color al pasar el cursor */
+  }

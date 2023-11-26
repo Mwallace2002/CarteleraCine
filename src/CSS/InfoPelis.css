@@ -1,0 +1,8 @@
+.popup.active .movie-details img {
+  transition: transform 0.5s ease;
+  transform-style: preserve-3d;
+}
+
+.popup.active .movie-details img.flip {
+  transform: rotateY(180deg);
+}
